@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <p>Write a number below:</p>
+      <input type = "number" id = "myid" oninput="display()">
+      <p id="test"></p>
+      <script>
+         function display() {
+            var p = document.getElementById("myid").value;
+            document.getElementById("test").innerHTML = "Square of " +p +" is " + p*p;
+         }
+      </script>
+   </body>
+</html>

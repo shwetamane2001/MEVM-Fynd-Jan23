@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <p>Write a string below:</p>
+      <input type = "text" id = "myid" oninput="display()">
+      <p id="test"></p>
+      <script>
+         function display() {
+            var p = document.getElementById("myid").value;
+            document.getElementById("test").innerHTML = "Number of letters in the string are " + p.length;
+         }
+      </script>
+   </body>
+</html>
