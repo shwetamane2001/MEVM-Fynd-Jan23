@@ -2,15 +2,17 @@
     <body>
         <h2>js</h2>
         <p id="test"></p>
+        <p id="demo"></p>
         <script>
             let x=10; //less scope
             var y=10; //wide scope
             {
-                let x=2;
-                var y=2;
+                let x=2; //change is not allowed for 'let'
+                var y=20; //change is allowed for 'var'
             }
             //x is 10 and y is 20
-            document.getElementById("test").innerHTML=y;
+            document.getElementById("test").innerHTML="value of y is" +y;
+            document.getElementById("demo").innerHTML="value of x is" +x;
         </script>
     </body>
 </html>
