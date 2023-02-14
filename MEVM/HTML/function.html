@@ -7,14 +7,13 @@
           function foo(){
              var y=20; //free variable
              function bar(){
-                  var z=15;
-                  var output=x+y+z;
-                  return output;
+                 z=x+y;
+                 return z;
             }
-            document.getElementById("test").innerHTML=output;
+            document.getElementById("test").innerHTML=z;
             return bar;
         }   
-        
         </script>
     </body>
 </html>
+
