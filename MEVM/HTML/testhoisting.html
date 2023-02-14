@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h2>Hoisting</h2>
+        <p id="test"></p>
+        <p id="demo"></p>
+        <script>
+            x=5; //values are assigned first
+            y=10;
+            z=x+y;
+            var x; //the variables are initialized at the end
+            var y;
+            var z;
+            //hoisting follows bottom-up approach for initilization
+            //and top-down approach for declaration
+           document.getElementById("test").innerHTML="value of z is" +z;
+        </script>
+    </body>
+</html>
