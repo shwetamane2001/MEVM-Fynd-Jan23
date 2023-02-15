@@ -1,0 +1,180 @@
+
+<html lang="eng">
+    <head>
+        <img id="size"src="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\groceries-svgrepo-com.svg">
+        <h1>GrabGros</h1>
+        <title>Sanitary</title>
+        <style>
+            *{
+                background-color:white;
+            }
+            #size{
+                height: 10%;
+                width:10%;
+                float:left;
+                padding-right: 0%;
+            }
+            .menu{
+                background-color: black;
+                /*#0067AS
+                 #0047AB;*/
+                border: 2px solid black;
+                margin:40px;
+                padding:20px;
+                text-align: right;
+                word-spacing: 30px;
+            }
+            h1{
+                text-align: left;
+                font:bolder;
+                font-family: cursive;
+                font-style: italic;
+                color:rgb(61, 172, 5);
+                /*rgba(1, 1, 68, 0.467);
+                rgb(183, 249, 3)*/
+            }
+            .menua{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-size: larger;
+                text-decoration: none;
+                background-color: black;
+            }
+            a:hover{
+                color: rgb(7, 192, 205);
+                font-size:140%;
+                font-weight: bolder;
+                border:2cm;
+            }
+            h2{
+                color:rgb(103, 4, 73);
+                font-weight: bold;
+                font-size: 50;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 40%;
+  margin-left:20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  height: 300px;
+}
+
+div.gallery:hover {
+  border: 2px solid #242222;
+  font-weight: bold;
+  border-style: ridge;
+}
+
+div.gallery img {
+  width: 45%;
+  align-items: left;
+  height: 100%;
+  float:left;
+  padding-right: 10px;
+}
+
+div.desc {
+  /*padding: 10px;*/
+  text-align:justify;
+  font-size:large;
+  font-weight:bolder;
+  padding-top: 10px;
+}
+button{
+   font-size:large;
+   font-weight: bold;
+   color:#0047AB;
+}
+span{
+    color:red;
+    float:right;
+}
+.buy{
+    color:#0047AB;
+    margin: 20px;
+    text-decoration: none;
+}
+
+        </style>
+        <body>
+            <div class="menu">
+                <a class="menua" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Home.html">Trending</a>
+                <a class="menua" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Products.html">Products</a>
+                <a class="menua" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Cart.html">Cart</a>
+                <a class="menua" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Account.html">Account</a>
+            </div>
+            <div><h2>Detergents, Soaps and Toothpaste</h2></div>
+
+            <div class="gallery">
+                  <img src="colgate.jpeg" alt="colgate" width="600" height="400">
+                <div class="desc">Colgate Toothpaste</div>
+                <div class="desc">Price: Rs.50/pack</div>
+                <div><h4>Free Home Delivery Available!</h4></div>
+                <div><p id="test"> </p><button type="button" onclick="document.getElementById('test').innerHTML='Liked Item'"><span> &#9825; </span></button></div>
+                <div><p id="demo"> </p>
+                    <button type="button" onclick="document.getElementById('demo').innerHTML='Item Added to Cart!'"> Add to Cart </button></div>
+                    <div><p id="test1"> </p><button type="button" onclick="document.getElementById('test1').innerHTML=''"><a class="buy" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\buy.html">Buy</a></button></div>
+              </div>
+
+              <div class="gallery">
+                <img src="rin.jpeg" alt="rin" width="600" height="400">
+              <div class="desc">Rin Bar</div>
+              <div class="desc">Price: Rs.14/pack</div>
+              <div><h4>Free Home Delivery Available!</h4></div>
+              <div><p id="test_1"> </p><button type="button" onclick="document.getElementById('test_1').innerHTML='Liked Item'"><span> &#9825; </span></button></div>
+              <div><p id="demo_1"> </p>
+                  <button type="button" onclick="document.getElementById('demo_1').innerHTML='Item Added to Cart!'"> Add to Cart </button></div>
+                  <div><p id="test1_1"> </p><button type="button" onclick="document.getElementById('test1_1').innerHTML=''"><a class="buy" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\buy.html">Buy</a></button></div>
+            </div>
+
+            <div class="gallery">
+                <img src="wheel.jpeg" alt="wheel" width="600" height="400">
+              <div class="desc">Wheel Soap Bar</div>
+              <div class="desc">Price: Rs.12/pack</div>
+              <div><h4>Free Home Delivery Available!</h4></div>
+              <div><p id="test_2"> </p><button type="button" onclick="document.getElementById('test_2').innerHTML='Liked Item'"><span> &#9825; </span></button></div>
+              <div><p id="demo_2"> </p>
+                  <button type="button" onclick="document.getElementById('demo_2').innerHTML='Item Added to Cart!'"> Add to Cart </button></div>
+                  <div><p id="test1_2"> </p><button type="button" onclick="document.getElementById('test1_2').innerHTML=''"><a class="buy" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\buy.html">Buy</a></button></div>
+            </div>
+           
+            <div class="gallery">
+                <img src="arielpowder.jpeg" alt="ariel" width="600" height="400">
+              <div class="desc">Ariel Detergent</div>
+              <div class="desc">Price: Rs.135/pack</div>
+              <div><h4>Free Home Delivery Available!</h4></div>
+              <div><p id="test_3"> </p><button type="button" onclick="document.getElementById('test_3').innerHTML='Liked Item'"><span> &#9825; </span></button></div>
+              <div><p id="demo_3"> </p>
+                  <button type="button" onclick="document.getElementById('demo_3').innerHTML='Item Added to Cart!'"> Add to Cart </button></div>
+                  <div><p id="test1_3"> </p><button type="button" onclick="document.getElementById('test1_3').innerHTML=''"><a class="buy" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\buy.html">Buy</a></button></div>
+            </div>
+
+            <div class="gallery">
+                <img src="surf.jpeg" alt="surf" width="600" height="400">
+              <div class="desc">SurfExcel Matic Liquid</div>
+              <div class="desc">Price: Rs.150/pack</div>
+              <div><h4>Free Home Delivery Available!</h4></div>
+              <div><p id="test_4"> </p><button type="button" onclick="document.getElementById('test_4').innerHTML='Liked Item'"><span> &#9825; </span></button></div>
+              <div><p id="demo_4"> </p>
+                  <button type="button" onclick="document.getElementById('demo_4').innerHTML='Item Added to Cart!'"> Add to Cart </button></div>
+                  <div><p id="test1_4"> </p><button type="button" onclick="document.getElementById('test1_4').innerHTML=''"><a class="buy" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\buy.html">Buy</a></button></div>
+            </div>
+
+            <div class="gallery">
+                <img src="harpic.jpeg" alt=harpic" width="600" height="400">
+              <div class="desc">Harpic Cleaner</div>
+              <div class="desc">Price: Rs.100/pack</div>
+              <div><h4>Free Home Delivery Available!</h4></div>
+              <div><p id="test_5"> </p><button type="button" onclick="document.getElementById('test_5').innerHTML='Liked Item'"><span> &#9825; </span></button></div>
+              <div><p id="demo"> </p>
+                  <button type="button_5" onclick="document.getElementById('demo_5').innerHTML='Item Added to Cart!'"> Add to Cart </button></div>
+                  <div><p id="test1_5"> </p><button type="button" onclick="document.getElementById('test1_5').innerHTML=''"><a class="buy" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\buy.html">Buy</a></button></div>
+            </div>
+        </body>
+    </head>
+</html>

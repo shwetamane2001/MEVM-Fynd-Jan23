@@ -1,0 +1,179 @@
+<html lang="eng">
+    <head>
+        <img id="size"src="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\groceries-svgrepo-com.svg">
+        <h1>GrabGros</h1>
+        <title>Home</title>
+        <style>
+            #size{
+                height: 10%;
+                width:10%;
+                float:left;
+                padding-right: 0%;
+            }
+            .menu{
+                background-color: black;
+                /*#0067AS
+                 #0047AB;*/
+                border: 2px solid black;
+                margin:28px;
+                padding:20px;
+                text-align: right;
+                word-spacing: 30px;
+            }
+            h1{
+                text-align: left;
+                font:bolder;
+                font-family: cursive;
+                font-style: italic;
+                color:rgb(61, 172, 5);
+                /*rgba(1, 1, 68, 0.467);
+                rgb(183, 249, 3)*/
+            }
+            a{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-size: larger;
+                text-decoration: none;
+                background-color: black;
+            }
+            a:hover{
+                color: rgb(7, 192, 205);
+                font-size:140%;
+                font-weight: bolder;
+                border:2cm;
+            }
+            .scroll-left {
+                overflow: hidden;
+                position:relative;
+                background:white;
+                color: red;
+                font-weight: bold;
+                font-size:x-large;
+                height: 50px;
+                padding-bottom: 1cm;	
+            }
+            .scroll-left p {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                line-height: 50px;
+                text-align: center;
+                /* Starting position */
+                transform:translateX(100%);
+                /* Apply animation to this element */
+                animation: scroll-left 15s linear infinite;
+            }
+    /* Move it (define the animation) */
+             @keyframes scroll-left {
+                0%   {
+                transform: translateX(100%); 		
+                 }
+                    100% {
+                 transform: translateX(-100%); 
+     }
+    }
+    div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+}
+
+div.gallery:hover {
+  border: 3px solid #242222;
+  font-weight:bolder;
+  border-style: ridge;
+}
+
+div.gallery img {
+  width: 90%;
+  align-items: center;
+  height: auto;
+  clear:both;
+  /*display: block;*/
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  clear:both
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  div.gallery {
+    width: 70%;
+  }
+}
+        </style>
+        <body>
+            <div class="menu">
+                <a href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Home.html">Trending</a>
+                <a href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Products.html">Products</a>
+                <a href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Cart.html">Cart</a>
+                <a href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Account.html">Account</a>
+            </div>
+            <div class="row">
+            <div class="scroll-left">
+                <p>Shop Now on GrabGroc upto Rs.1000 and get free delivery!!!</p>
+                </div>
+                <h2>Popular and trending on GrabGros</h2>
+                <div class="gallery">
+                    <a target="_blank" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\veglist.html">
+                      <img src="vegetables.jpeg" alt="Vegetables" width="600" height="400">
+                    </a>
+                    <div class="desc">Click here to buy vegetables at good price.</div>
+                  </div>
+
+                  <div class="gallery">
+                    <a target="_blank" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\cosmetics.html">
+                      <img src="cosmetics.jpeg" alt="Cosmetics" width="600" height="400">
+                    </a>
+                    <div class="desc">All cosmetic product with amazing offers are available here</div>
+                  </div>
+
+                  
+                <div class="gallery">
+                    <a target="_blank" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\fruitlist.html">
+                      <img src="fruits.jpeg" alt="Fruits" width="600" height="400">
+                    </a>
+                    <div class="desc">Click here to get fresh and healthy fruits.</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\cereallist.html">
+                      <img src="cereals.jpeg" alt="Cereals" width="600" height="400">
+                    </a>
+                    <div class="desc">Buy clean and good quality cereals.</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\Sanitary.html">
+                      <img src="soap.jpeg" alt="Sanitary Products" width="600" height="400">
+                    </a>
+                    <div class="desc">Add the sanitary products in your cart now.</div>
+                  </div>
+
+                  <div class="gallery">
+                    <a target="_blank" href="C:\Users\PRATIK MANE\Documents\GitHub\MEVM-Fynd-Jan23\MEVM\Unit Project - E-commerce Website\snacklist.html">
+                      <img src="Snacks.jpeg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Buy snacks at discounted prices</div>
+                  </div>
+                </div>
+                <div>
+                    <p><b> For any querries: Contact US @</b> <address><a href="supportgrabgros@gmail.com">supportgrabgros@gmail.com</a></address></p>
+                </div>
+        </body>
+    </head>
+</html>
