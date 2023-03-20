@@ -1,0 +1,7 @@
+The NodeJs architecture is based on server request and response service.
+The request is sent to the server using a thread.
+This thread carries out a small process or task assigned to it using the event loop architecture of NodeJS.
+Suppose there are n number of clients on an web aplication. They are working simultaneously.
+The server has a thread pool which maintains the threads that are requested by the clients.
+Now, the NodeJS server recieves requests from their 'n' clients. These requesta are put up in the event loop.
+The requests are completed one-by-one and responses are sent to particular clients.
